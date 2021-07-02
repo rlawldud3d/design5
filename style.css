@@ -1,0 +1,151 @@
+*{  
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+}
+#container{
+    width: 1900px;
+    height: 800px;
+}
+ul{
+    list-style-type: none;
+}
+#main-header{
+    min-width: 1200px;
+    width: 100%;
+    height: 200px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 999;
+;
+
+}
+#main-header h1 {
+position: absolute;
+left: 100px;
+top: 30px;
+
+}
+#main-header h1 > a > img{
+width: 60px;
+}
+
+
+
+#gnb {
+    position: absolute;
+    right: 100px;
+    top: 80px;
+}
+#gnb > ul > li {
+    display: inline-block;
+    margin-left: 3em;
+
+}
+#gnb > ul > li > a {
+    text-decoration: none;
+    color:#333333;
+    font-weight: 600;
+    
+}
+#title{
+    min-width: 1200px;
+    width: 100%;
+ 
+ 
+
+}
+
+.title-group{
+height: 400px;
+margin-top: 200px;
+float: left;
+padding-left: 100px;
+padding-top: 250px;
+margin-right: 0px;
+margin-left: 200px;
+    
+
+
+
+
+
+}
+#title .title-group h2 {
+font-size: 40px; /* 반응형 가변 글자 */
+font-weight: 600;
+margin-bottom: 10px;
+
+}
+#title .title-group h2 > span {
+font-size: 80px;
+}
+
+#title .title-group p {
+font-size: 20px;
+font-weight: 600;
+margin-top: 30px;
+
+}
+
+
+#title figure img {
+float: left;
+margin-top: 280px;
+margin-left: 500px;
+padding-top: 50px;
+width: 600px;
+
+
+}
+
+nav.pager {
+    position: fixed;
+    bottom: 40px;
+    left: 50%;
+    /* outline: 1px solid red; */
+    transform: translateX(-50%);
+    
+  }
+  nav.pager > ul{
+      margin-right: 100px;
+     
+  }
+  nav.pager > ul > li {
+    display: inline-block; 
+    /* outline: 1px solid green; */
+    text-align: center;
+    
+  }
+  nav.pager > ul > li > a {
+    display: block;
+  }
+nav.pager > ul > li > a > img {
+    width: 80px;
+    padding-right: 10px;
+
+    
+  }
+  nav.pager > ul > li > a {
+    transition-duration: 0.5s;
+  }
+  
+  nav.pager > ul > li > a:hover {
+    transform: scale(1.2);
+  }
+.more-btn {
+width: 200px;
+background: #333333;
+display: inline-block;
+color: #ffffff;
+text-decoration: none;
+text-align: center;  
+border-radius: 10px;
+margin-top: 40px;
+padding: 5px;
+font-weight: bolder;
+}
+
