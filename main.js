@@ -46,7 +46,7 @@ $(function(){
    
     $('.pager > ul > li').eq(4).click(function(){
         $('figure img')
-          .attr('src',  titleData[2].imgUrl);  
+          .attr('src',  titleData[4].imgUrl);  
       });
   
       $('.pager > ul > li').eq(5).click(function(){
